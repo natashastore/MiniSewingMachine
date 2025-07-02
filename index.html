@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Sewing Machine - Mesin Jahit Portable Premium</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGzwycJ7fC6DYVo_eUzS_tHR3q25pFffNmMg&s">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8fafc;
+        }
+        
+        .premium-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        
+        .promo-badge {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .countdown-box {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+        }
+        
+        .testimonial-card {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+        
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+            color: white;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        
+        .product-image {
+            transition: all 0.3s ease;
+        }
+        
+        .product-image:hover {
+            transform: scale(1.03);
+        }
+        
+        .promo-header {
+            background: linear-gradient(to right, #ef4444, #f97316);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="premium-bg text-white py-4 shadow-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <i class="fas fa-sewing-machine text-2xl mr-2"></i>
+                    <h1 class="text-xl font-bold">HandyStitch</h1>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#product" class="hover:text-blue-200 transition">Produk</a>
+                    <a href="#features" class="hover:text-blue-200 transition">Fitur</a>
+                    <a href="#testimoni" class="hover:text-blue-200 transition">Testimoni</a>
+                    <a href="#order" class="hover:text-blue-200 transition">Pesan Sekarang</a>
+                </div>
+                <button class="md:hidden text-xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Image -->
+    <section class="bg-white py-8">
+        <div class="container mx-auto px-4">
+            <img src="https://down-id.img.susercontent.com/file/9692c276a264995b1f882ed7cac3e2ad.webp" alt="Mini Sewing Machine" class="w-full h-auto rounded-lg shadow-xl mx-auto">
+        </div>
+    </section>
+
+    <!-- Product Title & Description -->
+    <section id="product" class="py-12 bg-white">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h1 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-6">Mini Sewing Machine Handy Stitch</h1>
+            <p class="text-lg text-gray-600 text-center mb-8">
+                Mesin Jahit Handy Stitch adalah mesin jahit yang berukuran kecil yang mudah untuk dibawa kemana saja Anda berpergian. Jika pakaian Anda ada yang robek secara tiba-tiba, Anda dapat menjahitnya langsung ditempat itu juga. Sangat praktis untuk digunakan.
+            </p>
+            
+            <div class="flex justify-center">
+                <a href="#order" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-lg">
+                    <i class="fas fa-shopping-cart mr-2"></i> Pesan Sekarang
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Features -->
+    <section id="features" class="py-16 premium-bg text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Keunggulan Produk</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center p-6 rounded-xl bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Motor Penggerak Otomatis</h3>
+                    <p class="text-blue-100">Menggunakan motor penggerak sehingga mesin ini menjahit secara otomatis tanpa perlu tenaga manual.</p>
+                </div>
+                
+                <div class="text-center p-6 rounded-xl bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-suitcase"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Portable & Praktis</h3>
+                    <p class="text-blue-100">Berbentuk sangat kecil dan fleksibel dibawa kemanapun, sangat praktis untuk perjalanan.</p>
+                </div>
+                
+                <div class="text-center p-6 rounded-xl bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Material Berkualitas</h3>
+                    <p class="text-blue-100">Terbuat dari bahan plastik berkualitas tinggi sehingga tahan lama dan awet digunakan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Detail Produk</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <img src="https://down-id.img.susercontent.com/file/fdce58b29272871af5b5bf0bd5aa7b47.webp" alt="Detail 1" class="w-full h-auto rounded-lg shadow-md product-image mb-4">
+                    <p class="text-gray-600">Desain kompak dengan pegangan ergonomis</p>
+                </div>
+                
+                <div class="text-center">
+                    <img src="https://down-id.img.susercontent.com/file/878184974ac1ebfb773dfe58f72ed807.webp" alt="Detail 2" class="w-full h-auto rounded-lg shadow-md product-image mb-4">
+                    <p class="text-gray-600">Sistem jahitan otomatis yang presisi</p>
+                </div>
+                
+                <div class="text-center">
+                    <img src="https://down-id.img.susercontent.com/file/725a57fcc6aeeb2d4fa21ac5d6258873.webp" alt="Detail 3" class="w-full h-auto rounded-lg shadow-md product-image mb-4">
+                    <p class="text-gray-600">Mudah digunakan bahkan untuk pemula</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Color Variants -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Varian Warna Tersedia</h2>
+            
+            <div class="flex justify-center">
+                <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rcd5-ltw6fsqwuim5e0.webp" alt="Color Variants" class="w-full max-w-2xl h-auto rounded-lg shadow-md">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimoni" class="py-16 premium-bg">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-white mb-12">Apa Kata Pelanggan Kami?</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl p-6 testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold mr-4">S</div>
+                        <div>
+                            <h4 class="font-bold">Siti Rahayu</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Sangat praktis! Saya sering bawa saat traveling. Ketika baju suami sobek di perjalanan, bisa langsung dijahit. Kualitas jahitan juga rapi."</p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold mr-4">A</div>
+                        <div>
+                            <h4 class="font-bold">Andi Wijaya</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Awalnya ragu karena harganya murah, tapi ternyata kualitas bagus. Sudah 6 bulan dipakai masih awet. Cocok untuk mahasiswa kos seperti saya."</p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold mr-4">D</div>
+                        <div>
+                            <h4 class="font-bold">Dewi Lestari</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Membantu sekali untuk perbaikan kecil di rumah. Tidak perlu repot bawa ke tukang jahit. Anak-anak juga bisa belajar menjahit dengan ini."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Countdown -->
+    <section class="py-12 bg-gradient-to-r from-blue-800 to-blue-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold mb-4">PROMO SPESIAL HARI INI!</h2>
+            <p class="mb-6">Dapatkan Diskon Spesial Untuk Hari Ini Saja, Harga Akan Kembali Normal Setelah:</p>
+            
+            <div class="flex justify-center space-x-4 mb-8">
+                <div class="countdown-box rounded-lg p-4 w-20">
+                    <div class="text-3xl font-bold" id="hours">12</div>
+                    <div class="text-sm">Jam</div>
+                </div>
+                <div class="countdown-box rounded-lg p-4 w-20">
+                    <div class="text-3xl font-bold" id="minutes">45</div>
+                    <div class="text-sm">Menit</div>
+                </div>
+                <div class="countdown-box rounded-lg p-4 w-20">
+                    <div class="text-3xl font-bold" id="seconds">30</div>
+                    <div class="text-sm">Detik</div>
+                </div>
+            </div>
+            
+            <div class="max-w-2xl mx-auto bg-white rounded-xl p-6 text-gray-800 shadow-lg">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="mb-4 md:mb-0">
+                        <div class="text-sm text-gray-500">Harga Normal</div>
+                        <div class="text-xl line-through">Rp 225.000</div>
+                    </div>
+                    <div class="text-4xl font-bold text-red-600">Rp 165.000</div>
+                    <div class="mt-4 md:mt-0">
+                        <div class="text-sm text-gray-500">Anda Hemat</div>
+                        <div class="text-xl font-bold text-green-600">Rp 60.000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Notes -->
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="bg-white rounded-xl p-6 shadow-md">
+                <h3 class="text-xl font-bold mb-4 text-gray-800">Catatan Penting:</h3>
+                <ul class="space-y-2 text-gray-600">
+                    <li class="flex items-start">
+                        <i class="fas fa-truck text-blue-500 mt-1 mr-2"></i>
+                        <span>Pengiriman 2 - 4 Hari Setelah Pemesanan</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-map-marker-alt text-blue-500 mt-1 mr-2"></i>
+                        <span>Mohon Isi Alamat Dengan Lengkap</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-certificate text-blue-500 mt-1 mr-2"></i>
+                        <span>100% Product Original dengan Garansi Resmi</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Banner -->
+    <section class="py-8 bg-white">
+        <div class="container mx-auto px-4">
+            <img src="https://down-id.img.susercontent.com/file/id-11134207-7qul5-lezc87575kf4db.webp" alt="Promo Diskon" class="w-full h-auto rounded-xl shadow-lg">
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section id="order" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="bg-white rounded-xl shadow-xl overflow-hidden">
+                <div class="promo-header text-white py-3 px-6 text-center">
+                    <h3 class="text-xl font-bold"><i class="fas fa-gift mr-2"></i> FORM PEMESANAN</h3>
+                </div>
+                
+                <div class="p-6">
+                    <!-- OrderOnline Embed Code -->
+                    <div class="ooef">
+                        <form class="orderonline-embed-form" data-username="emma" data-product-slug="mini-sewing-machine" data-product-id="68653361bbb6a8b43b0985db" id="oo-embed-form-mini-sewing-machine-1034" data-origin="orderonline">
+                            <div class="ooef-loader">
+                                <style>
+                                    .ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}
+                                    @keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
+                                    @-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
+                                    .ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}
+                                    .ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}
+                                    .ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}
+                                    @-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
+                                    @keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
+                                </style>
+                                <div aria-live="polite" role="status"><div>Loading...</div></div>
+                            </div>
+                        </form>
+                    </div>
+                    <script>
+                        if (typeof xLogError != 'function') {
+                            var xLogError = function (error) {
+                                var req = new XMLHttpRequest();
+                                var payload = JSON.stringify({
+                                    url: document.location.href,
+                                    line: error.line,
+                                    stack: error.stack
+                                });
+                                var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                                req.open('POST', 'https://api.orderonline.id/log', true);
+                                req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                                req.send(params);
+                            };
+                        }
+                        try {
+                            if (typeof xEmbedScript != 'function') {
+                                var xEmbedScript = function () {
+                                    !function(w, d, e, v, id, t, s) {
+                                        if (d.getElementById(id)) return;
+                                        t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                        s = d.getElementsByTagName(e)[0];
+                                        s.parentNode.insertBefore(t, s);
+                                    }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                                };
+                            }
+                            if (typeof xEmbedInit != 'function') {
+                                var xEmbedInit = function (w, n) {
+                                    if (w.ooe) return;
+                                    n = w.ooe = function() {
+                                        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                                    };
+                                    if (!w._ooe) w._ooe = n;
+                                    n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                                };
+                            }
+                            xEmbedInit(window);
+                            ooe('setup', 'redirect', 'https://emma.orderonline.id');
+                            ooe('init', '5f16831a9d8e8e4fb67472e5', '68653361bbb6a8b43b0985db', '68653361bbb6a8b43b0985dc', 'oo-embed-form-mini-sewing-machine-1034', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":false,"triggerGtm":false});
+                            if (!window.jQuery) {
+                                !function(w, d, e, v, id, t, s) {
+                                    if (d.getElementById(id)) return;
+                                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                    t.addEventListener('load', xEmbedScript);
+                                    s = d.getElementsByTagName(e)[0];
+                                    s.parentNode.insertBefore(t, s);
+                                }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+                            } else {
+                                xEmbedScript();
+                            }
+                        } catch (e) {
+                            xLogError(e);
+                            throw e;
+                        }
+                    </script>
+                    <!-- End OrderOnline Embed Code -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="premium-bg text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <div class="flex items-center">
+                        <i class="fas fa-sewing-machine text-2xl mr-2"></i>
+                        <h2 class="text-xl font-bold">HandyStitch</h2>
+                    </div>
+                    <p class="text-blue-200 mt-2">Solusi Praktis Untuk Kebutuhan Jahit Anda</p>
+                </div>
+                
+                <div class="flex space-x-6">
+                    <a href="#" class="text-xl hover:text-blue-200 transition"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="text-xl hover:text-blue-200 transition"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-xl hover:text-blue-200 transition"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            
+            <div class="border-t border-blue-400 mt-6 pt-6 text-center text-blue-200">
+                <p>&copy; 2023 HandyStitch. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Countdown Timer Script -->
+    <script>
+        // Set the date we're counting down to (24 hours from now)
+        const countDownDate = new Date().getTime() + 24 * 60 * 60 * 1000;
+        
+        // Update the count down every 1 second
+        const x = setInterval(function() {
+            // Get today's date and time
+            const now = new Date().getTime();
+            
+            // Find the distance between now and the count down date
+            const distance = countDownDate - now;
+            
+            // Time calculations for hours, minutes and seconds
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            // Display the result
+            document.getElementById("hours").innerHTML = hours.toString().padStart(2, '0');
+            document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, '0');
+            document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, '0');
+            
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("hours").innerHTML = "00";
+                document.getElementById("minutes").innerHTML = "00";
+                document.getElementById("seconds").innerHTML = "00";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
